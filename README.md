@@ -6,6 +6,8 @@ Yet another TypeScript runner.
 
 ## Install
 
+Prerequisite: [Node.js](https://nodejs.org/en/) >= 20.19.0, 22.7.0, or >= 24.0.0.
+
 ```bash
 npm i tsno
 ```
