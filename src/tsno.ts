@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 const loaderPath = fileURLToPath(new URL('./loader.js', import.meta.url))
 spawnSync(
   process.execPath,
-  ['--require', loaderPath, ...process.argv.slice(2)],
+  ['--import', loaderPath, ...process.argv.slice(2)],
   {
     stdio: 'inherit',
     env: { ...process.env },

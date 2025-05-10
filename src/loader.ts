@@ -1,6 +1,3 @@
-import { registerSync } from 'unloader'
-import Oxc from 'unplugin-oxc/unloader'
+import { register } from 'unloader'
 
-registerSync({
-  plugins: [Oxc() as any],
-})
+register(new URL('./unloader.js', import.meta.url).href)

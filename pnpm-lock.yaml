@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       unloader:
-        specifier: ^0.4.4
-        version: 0.4.4
+        specifier: ^0.4.5
+        version: 0.4.5
       unplugin-oxc:
         specifier: ^0.4.2
-        version: 0.4.2(unloader@0.4.4)
+        version: 0.4.2(unloader@0.4.5)
     devDependencies:
       '@sxzz/eslint-config':
         specifier: ^7.0.1
@@ -2035,8 +2035,8 @@ packages:
   unist-util-visit@5.0.0:
     resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
 
-  unloader@0.4.4:
-    resolution: {integrity: sha512-+w/Jdj+X73tUHQ9nR8YlONYiU1A8Dnhs8kti02BWqAw5X48C+2GUYDysTD5BQg0uBJG6Wjq2IJrLgSRMIqJIOw==}
+  unloader@0.4.5:
+    resolution: {integrity: sha512-drzuXajF1tb+LX2gwn5LVmP3YRmNlMZ5InWkHFsnYz4NKATXcibjLWJqB8k05LyAJ8dVKQg1MOESKsa1Q6F8fg==}
     engines: {node: ^18.19.0 || >=20.6.0}
 
   unpipe@1.0.0:
@@ -4352,7 +4352,7 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unloader@0.4.4:
+  unloader@0.4.5:
     dependencies:
       '@ampproject/remapping': 2.3.0
       birpc: 2.3.0
@@ -4364,7 +4364,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-oxc@0.4.2(unloader@0.4.4):
+  unplugin-oxc@0.4.2(unloader@0.4.5):
     dependencies:
       oxc-minify: 0.69.0
       oxc-resolver: 9.0.1
@@ -4372,7 +4372,7 @@ snapshots:
       unplugin: 2.3.2
       unplugin-utils: 0.2.4
     optionalDependencies:
-      unloader: 0.4.4
+      unloader: 0.4.5
 
   unplugin-utils@0.2.4:
     dependencies:
