@@ -1,7 +1,7 @@
 {
   "name": "tsno",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.7.1",
+  "packageManager": "pnpm@10.10.0",
   "description": "Yet another TypeScript runner",
   "type": "module",
   "license": "MIT",
@@ -42,18 +42,18 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "unloader": "^0.4.3",
-    "unplugin-oxc": "^0.3.2"
+    "unloader": "^0.4.4",
+    "unplugin-oxc": "^0.4.1"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^6.1.1",
+    "@sxzz/eslint-config": "^7.0.1",
     "@sxzz/prettier-config": "^2.2.1",
-    "@types/node": "^22.13.17",
+    "@types/node": "^22.15.17",
     "bumpp": "^10.1.0",
-    "eslint": "^9.23.0",
+    "eslint": "^9.26.0",
     "prettier": "^3.5.3",
-    "tsdown": "^0.6.10",
-    "typescript": "^5.8.2"
+    "tsdown": "^0.11.2",
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=20.18.0"
