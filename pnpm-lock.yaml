@@ -12,8 +12,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4
       unplugin-oxc:
-        specifier: ^0.4.1
-        version: 0.4.1(unloader@0.4.4)
+        specifier: ^0.4.2
+        version: 0.4.2(unloader@0.4.4)
     devDependencies:
       '@sxzz/eslint-config':
         specifier: ^7.0.1
@@ -2043,8 +2043,8 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  unplugin-oxc@0.4.1:
-    resolution: {integrity: sha512-oYHL++9PH7LHTmpYjCSP1AKKisdQ5zCgWZBhuY9wh1+mwNtzHfONokxMNY3WucJMKUY4oAmXVaEx5Rdbhng3uQ==}
+  unplugin-oxc@0.4.2:
+    resolution: {integrity: sha512-CrL5h1XmQ8truDQpkpM8Hx9NePfOkxTzLqt9Z0fZ1a189KSFK9hN+PJ3THAYX/agZK8f84jjJcIoypNUKJyuWw==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       unloader: '*'
@@ -4364,7 +4364,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-oxc@0.4.1(unloader@0.4.4):
+  unplugin-oxc@0.4.2(unloader@0.4.4):
     dependencies:
       oxc-minify: 0.69.0
       oxc-resolver: 9.0.1
