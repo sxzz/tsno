@@ -34,8 +34,8 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       tsdown:
-        specifier: ^0.12.5
-        version: 0.12.5(oxc-resolver@11.0.0)(typescript@5.8.3)
+        specifier: ^0.12.6
+        version: 0.12.6(oxc-resolver@11.0.0)(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -1766,16 +1766,19 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4'
 
-  tsdown@0.12.5:
-    resolution: {integrity: sha512-5tzqVakJOdIVJLBB6K1e7L4pPTkyLxArkidwsY1jd4P1/4GplYxeHGRmGz8evsXaPJW6IumdbDvIVnmWMnIy2A==}
+  tsdown@0.12.6:
+    resolution: {integrity: sha512-NIqmptXCYc0iZzSGNpFtWATTDM5MyqDfV7bhgqfrw8KJlEFLI9zYyF4uFDheEvudTMNH5dkcQUJaklpmHsA37A==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
+      '@arethetypeswrong/core': ^0.18.1
       publint: ^0.3.0
       typescript: ^5.0.0
       unplugin-lightningcss: ^0.4.0
       unplugin-unused: ^0.5.0
     peerDependenciesMeta:
+      '@arethetypeswrong/core':
+        optional: true
       publint:
         optional: true
       typescript:
@@ -3783,7 +3786,7 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  tsdown@0.12.5(oxc-resolver@11.0.0)(typescript@5.8.3):
+  tsdown@0.12.6(oxc-resolver@11.0.0)(typescript@5.8.3):
     dependencies:
       ansis: 4.1.0
       cac: 6.7.14

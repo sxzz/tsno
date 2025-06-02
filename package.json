@@ -53,7 +53,7 @@
     "bumpp": "^10.1.1",
     "eslint": "^9.28.0",
     "prettier": "^3.5.3",
-    "tsdown": "^0.12.5",
+    "tsdown": "^0.12.6",
     "typescript": "^5.8.3"
   },
   "engines": {
