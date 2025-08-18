@@ -44,16 +44,16 @@
   },
   "dependencies": {
     "unloader": "^0.5.0",
-    "unplugin-oxc": "^0.4.9"
+    "unplugin-oxc": "^0.5.0"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.1.2",
     "@sxzz/prettier-config": "^2.2.3",
-    "@types/node": "^22.17.1",
-    "bumpp": "^10.2.2",
+    "@types/node": "^22.17.2",
+    "bumpp": "^10.2.3",
     "eslint": "^9.33.0",
     "prettier": "^3.6.2",
-    "tsdown": "^0.14.0",
+    "tsdown": "^0.14.1",
     "typescript": "^5.9.2"
   },
   "engines": {
